@@ -93,21 +93,22 @@ p{
 
 .spotlight div.items {
 	padding-bottom: 50px;
-	border: 1px solid #e2e2e2;
 }
 
 .spotlight div.items div.item {
+	border: 1px solid #e2e2e2;
 	background-color: #fff;
-	padding: 80px;
+	padding: 80px 150px;
 	position: relative;
+	margin-bottom: 90px;
 }
 
 .spotlight div.items div.item div.image-container {
 	width: 70px;
 	margin: 0 auto;
 	position: absolute;
-	top: -30px;
-	left: 425px;
+	top: -35px;
+	left: calc(50% - 35px);
 }
 
 .spotlight div.items div.item div.image-container img {
@@ -121,18 +122,24 @@ p{
 }
 
 .spotlight div.items div.item div.content h5 {
-
+	font-size: 20px;
+	font-weight: 600;
+	margin-bottom: 20px;
 }
 
 .spotlight div.items div.item div.content span {
-
+	font-size: 16px;
+	color: #7e7e7e;
+	margin-bottom: 50px;
+	display: inline-block;
 }
 
 .spotlight div.items div.item div.content small {
-
+	color: #3475dc;
+	font-size: 16px;
 }
 
 .spotlight div.items div.item div.content p {
-
+	line-height: 1.5em;
 }
 
